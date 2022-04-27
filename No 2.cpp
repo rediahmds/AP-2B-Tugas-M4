@@ -11,8 +11,8 @@ int main() {
     (109 diterjemahkan menjadi "m") */
     for (nilaiAwal; nilaiAwal <= 109; nilaiAwal += 2) {
 
-        /* Kondisi apabila nilai 103 ("g"), maka akan diganti nilainya 
-        menjadi 42 lalu diterjemahkan menjadi "*" */
+        /* Kondisi apabila nilai 103 ("g"), maka akan 
+        ditampilkan integer 42 lalu diterjemahkan menjadi "*" */
         if (nilaiAwal == 103) {
             cout<<char(42)<<" ";
 
