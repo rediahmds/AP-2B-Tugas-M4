@@ -61,9 +61,12 @@ int main() {
         cout<<"Input anda tidak valid"<<endl;
     }
 
-    // Pengkondisian untuk loop do while
+    // Pengkondisian untuk input loop do while
     cout<<"Ingin memasukkan data lain? [Y/T]: ";
     cin>>ulangi;
     }
+
+    /* Kondisi perulangan apabila ulangi = Y, maka akan terus diulang. 
+    Apabila ulangi = T, maka perulangan berhenti*/
     while (ulangi != 'T');
 }
